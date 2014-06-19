@@ -1,0 +1,10 @@
+version 1.0.3
+    proxylb runs in foreground and in background without any problems
+    all logging is done via syslog only when -d (debug) flag is set on the command line
+    almost nothing (except for the one time startup messages) is printed on stdout
+    code looks much better (I reformated it) :)
+
+version 1.0.2
+    Fixed parse problems on 2.9x gcc (now compiles on suse)
+    proxylb runs only in foreground (quick fix for background deamon craching)
+

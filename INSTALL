@@ -1,0 +1,38 @@
+ * This is modified work by Miroslav Madzarevic githubcode@osadmin.com as of May 1st 2002
+ * based originally on proxy-2.2.4 program by sparlin@openpro.org
+
+IMPORTANT : proxylb now works well in the background.
+
+INSTALLATION
+
+Edit the makefile to make any necessary changes.
+	+ Should be fine for Linux...
+
+At the prompt type 'make'
+	+ Install (just copy) proxylb where ever you see fit.
+    Remember to put the config file (config.txt) in the same dir as proxylb
+or use -c /etc/proxylb/config.txt (or whatever place you put it in, whatever
+name you give it) as a command line parameter when starting proxylb
+
+AFTER INSTALLATION
+
+Read README file so that you know how to setup the small and simple config file.
+
+To get help type:
+
+    ./proxylb --help
+
+To start proxylb on port 2121 on all interfaces in background daemon mode 
+using ./config.txt type:
+
+./proxylb -s 2121  
+
+For my development I use gcc 3.0.4, glibc 2.2.5 and kernel 2.4.16. 
+This is a box I maintain myself based originally on RedHat 6.2
+
+We've had success stories of using proxylb on Red Hat, Mandrake, Suse,
+Debian and Sun.
+
+Have fun, send patches, fixes, money, greetings to githubcode@osadmin.com
+
+God bless OpenSource !

@@ -1,0 +1,25 @@
+- means it is finished
+
+make scripts to see if other box is up, what its load average is, network throughput, 
+    memory utilisation etc.
+
+make that connection doesn't die as long as there are other entries in peers list
+    right now if one of the peers is not available the connection dies instead of trying
+another one. I'll do this one specially for my Swedish friend Juerd in future versions.
+
+compile proxylb on windows any version
+    ;) yeah it has to be done if I'm going to get any money, right ?
+
+- remove \n from syslog calls
+- remove stdout i stderr printouts
+
+- make background daemon working
+- make it so that config file can be anywhere on disk and by whatever name 
+    (not just the default ./config.txt)
+
+- add debugging switch -d
+- allow only syslog debugging
+- remove all fflush calls
+- check all printf calls
+
+
